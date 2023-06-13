@@ -1,4 +1,4 @@
-# api-example-dataproduct
+# example-dataproduct-repository
 Example of a data product repository that sends its data to the [data mesh manager](https://www.datamesh-manager.com/) via GitHub Actions.
 
 Think of this repository as a repository of a full data product, including any infrastructure as code, queries, transformations, and other stuff - including, of course, the specification of the data product itself as a `dataproduct.yml` file. On any change and every day at 10:00 UTC, the data product specification is sent to the data mesh manager via the CI/CD pipeline. 
