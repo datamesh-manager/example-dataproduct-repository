@@ -17,10 +17,10 @@ jobs:
         run: |
           id=$(yq .info.id dataproduct.yml)
           json=$(yq -o json dataproduct.yml)
-          curl -X 'PUT' \
+          curl --fail -X 'PUT' \
             "https://app.datamesh-manager.com/api/dataproducts/$id" \
             -H "accept: */*" \
             -H "x-api-key: $API_KEY" \
             -H "Content-Type: application/json" \
             -d "$json"
-            --fail
+            
