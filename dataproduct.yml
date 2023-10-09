@@ -1,12 +1,11 @@
+id: stock_updated
 info:
-  id: stock_updated
-  name: Stock Updates
+  title: Stock Updates
   description: Raw event data from stock_updated confluent kafka topic.
   status: active
   archetype: raw
   maturity: raw
-owner:
-  teamId: fulfillment
+  owner: fulfillment
 links:
   Discovery: https://2sn2r9up9e.execute-api.eu-central-1.amazonaws.com/prod
   Documentation: http://example.com/datamesh/fulfillment/stock_updated
