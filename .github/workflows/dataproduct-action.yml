@@ -22,6 +22,5 @@ jobs:
             -H "accept: */*" \
             -H "x-api-key: $API_KEY" \
             -H "Content-Type: application/json" \
-            -d "$json" \
-            -i
+            -d "$json"
             
