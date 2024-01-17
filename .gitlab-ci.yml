@@ -17,5 +17,4 @@ push-to-dmm:
         -H "accept: */*" \
         -H "x-api-key: $DATAPRODUCT_EXAMPLE_API_KEY" \
         -H "Content-Type: application/json" \
-        -d "$json" \
-        --fail
+        -d "$json"
